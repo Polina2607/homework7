@@ -4,7 +4,7 @@
 int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9};
 printArrayRevers(array, array.Length-1);
 
-void printArrayRevers(array, int index)
+void printArrayRevers(int [] array, int index)
 {
     if(index<0)
     {
